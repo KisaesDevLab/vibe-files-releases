@@ -1,0 +1,15 @@
+# This repository publishes the released program only (PA-100 R1). Everything is ignored except
+# the allowlist below, so a stray source file, build or note cannot be committed. Release assets
+# go to GitHub Releases, never into the repository.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE.md
+!/CHANGELOG.md
+!/SECURITY.md
+!/.github/
+/.github/*
+!/.github/ISSUE_TEMPLATE/
+/.github/ISSUE_TEMPLATE/*
+!/.github/ISSUE_TEMPLATE/bug_report.md
+!/.github/ISSUE_TEMPLATE/feature_request.md
