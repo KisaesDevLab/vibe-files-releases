@@ -2,6 +2,16 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.53 (2026-11-23)
+
+- New: an installer, `vibe-files-setup-x64.exe`. It asks whether to install for you only (no
+  administrator rights needed) or for everyone on the PC (asks for an administrator), adds a
+  Start menu entry and an entry in Settings › Apps to uninstall. Upgrades keep your choice.
+- An installed copy keeps each Windows login's catalog and settings in
+  `%LOCALAPPDATA%\Vibe Files\data`. Installing, upgrading and uninstalling never touch them or
+  your cabinet.
+- The portable zip is still available and works as before.
+
 ## 0.1.52 (2026-11-23)
 
 - Downloads move to this page, <https://github.com/KisaesDevLab/vibe-files-releases>. The
