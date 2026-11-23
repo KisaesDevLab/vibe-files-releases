@@ -11,6 +11,7 @@ What changed in each Vibe Files release, newest first. Each section is also the 
   `%LOCALAPPDATA%\Vibe Files\data`. Installing, upgrading and uninstalling never touch them or
   your cabinet.
 - The portable zip is still available and works as before.
+- Vibe Files has its own icon, in Explorer, the taskbar, the Start menu and the window.
 
 ## 0.1.52 (2026-11-23)
 
