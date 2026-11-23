@@ -2,7 +2,7 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
-## 0.1.52 (unreleased)
+## 0.1.52 (2026-11-23)
 
 - Downloads move to this page, <https://github.com/KisaesDevLab/vibe-files-releases>. The
   update check in the app looks here.
@@ -13,6 +13,14 @@ What changed in each Vibe Files release, newest first. Each section is also the 
   `THIRD-PARTY-NOTICES.txt` for the components it contains.
 - The footer shows the build identifier beside the version number. Please quote both when you
   report a problem.
+- Security: a deliberately malformed PDF (thousands of nested arrays) could crash the app; it is
+  now refused or read safely. The bundled SQLite and other components were updated for published
+  security advisories.
+- PDFs with an owner password (they open without one but restrict editing) are still refused by
+  annotate, compress, flatten, OCR text layer, merge and split, as before. Filling forms still
+  works on them.
+- A client's date of birth given as only a year (for example 1990) is now reported as unreadable
+  instead of being read as a 1905 date.
 
 ## 0.1.51 (2026-11-20)
 
