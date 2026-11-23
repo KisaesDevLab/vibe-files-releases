@@ -1,0 +1,62 @@
+name: Bug report
+description: Something in Vibe Files does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not attach or paste client documents, real client names, SSNs or EINs, passwords, B2 keys, or screenshots showing them. Issues are public.**
+        Use made-up names and sample files. For anything that needs client data, email support@kisaes.com instead.
+  - type: input
+    id: version
+    attributes:
+      label: Version and build
+      description: From the app's footer (for example vibe-files 0.1.52 (1a2b3c4d5)).
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Settings > System > About (for example Windows 11 23H2).
+    validations:
+      required: true
+  - type: dropdown
+    id: cabinet
+    attributes:
+      label: Where the cabinet is
+      options:
+        - On this PC
+        - On a network share
+        - On a network share, with B2 sync on
+        - On this PC, with B2 sync on
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What you did, step by step, with made-up data.
+      placeholder: |
+        1. Open Browse
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+      description: Include the exact error text if there was one.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log lines (optional)
+      description: data\logs\vibe-files.<date>.log holds actions and error kinds only, no names or paths. Paste the lines around the time of the problem, and read them first for anything you would not want public.
+      render: text
+  - type: checkboxes
+    id: no-client-data
+    attributes:
+      label: Client data
+      options:
+        - label: This issue contains no client documents, client data, keys or screenshots showing them.
+          required: true

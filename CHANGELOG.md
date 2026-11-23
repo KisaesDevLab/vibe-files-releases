@@ -6,9 +6,11 @@ What changed in each Vibe Files release, newest first. Each section is also the 
 
 - Downloads move to this page, <https://github.com/KisaesDevLab/vibe-files-releases>. The
   update check in the app looks here.
-- From this version Vibe Files is licensed under the Kisaes end user licence agreement
-  (LICENSE.md) instead of the GNU AGPL. The download includes `THIRD-PARTY-NOTICES.txt` for the
-  components it contains.
+- From this version Vibe Files is licensed under the VibeMyFirm Community License 1.0
+  (LICENSE.md) instead of the GNU AGPL: free for your own entities' documents and records; work
+  for paying clients needs a Pro License Key, which is not sold yet, so Kisaes permits it without
+  a key in the 0.x test versions. The download includes `LICENSE.txt`, `NOTICE.txt` and
+  `THIRD-PARTY-NOTICES.txt` for the components it contains.
 - The footer shows the build identifier beside the version number. Please quote both when you
   report a problem.
 

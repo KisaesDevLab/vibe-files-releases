@@ -6,7 +6,8 @@ and Vibe Files adds browsing, intake and filing rules, scanning, OCR, search, PD
 (annotate, fill forms, page tools), versions, an audit trail, retention and legal hold, and
 optional two-way sync to your own Backblaze B2 bucket.
 
-This repository holds the released program only: downloads, the changelog and the licence.
+This repository holds the released program only: downloads, the changelog, the licence and the
+place to report problems. It does not hold source code.
 
 ## Download
 
@@ -72,15 +73,22 @@ Windows asks only once per version.
 ## Support
 
 - Bugs and feature requests: [open an issue](https://github.com/KisaesDevLab/vibe-files-releases/issues/new/choose).
-  Never attach client documents or real client data. Describe the problem, or use made-up
-  sample files.
+  **Issues are public: never attach or paste client documents, real client data, B2 keys or
+  screenshots showing them.** Describe the problem, or use made-up sample files. For anything
+  that involves client data, email support@kisaes.com instead.
 - Security problems: see [SECURITY.md](SECURITY.md). Please don't report them in a public issue.
 
 ## Licence
 
-Vibe Files is proprietary software of Kisaes LLC, licensed under the end user licence agreement
-in [LICENSE.md](LICENSE.md). Third-party components it includes keep their own licences, listed
-in `THIRD-PARTY-NOTICES.txt` in the download.
+See [LICENSE.md](LICENSE.md). Vibe Files is under the
+[VibeMyFirm Community License 1.0](https://vibemyfirm.com/licenses/community-1.0): free for the
+documents and records of entities you own, control or work for; working on the documents and
+records of clients who pay you is Professional Use and needs a Pro License Key; distributing the
+program needs a Developer License Key. Third-party components it includes keep their own
+licences, listed in `THIRD-PARTY-NOTICES.txt` in the download.
+
+Pro License Keys are not sold yet; they come with a later version. Until Kisaes announces them
+here, Kisaes permits Professional Use of the 0.x test versions without a key.
 
 Versions 0.1.51 and earlier were published under the GNU Affero General Public License v3.0 or
 later. Copies of those versions keep that licence.
