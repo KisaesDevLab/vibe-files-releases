@@ -2,6 +2,36 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.55 (2026-11-24)
+
+Most of this needs Vibe Portal 0.5.2 or later; **Admin › Portal** says when the portal is older.
+Update the portal first, then every PC.
+
+- New: **Portal contacts**. In **Import clients CSV…**, choose the columns with the taxpayer's
+  and spouse's name, email and cell. They are kept in the cabinet, so the CSV is not needed
+  after the import. Type or fix them in a client's panel (**PORTAL CONTACTS**): what you type is
+  kept over later CSVs.
+- Before a re-import changes anything, **Changes in this CSV** lists new, renamed and changed
+  clients, the clients the CSV leaves out, and changed contacts.
+- New: **Admin › Portal › Invite from client list**. Invite many clients at once. A joint couple
+  gets two logins (one in both names when they share an email), a business contact is invited
+  as Owner, and nobody who is already on the portal or invited is sent another invitation.
+  Invitations go out 20 at a time with a minute's pause, so your email provider does not take
+  them for spam (both can be changed), and **Stop** ends a run. **Search**, Show and Partner
+  narrow the list; **What they receive** shows the message as it is sent.
+- **Access requests** are now matched with the clients by the email or cell the person
+  confirmed: approve them for every client they belong to in one click, each with its role
+  (Spouse at the 1040, Owner at the LLC). A request that only matches by name, or whose date of
+  birth differs, asks how you checked first. Approving can share chosen documents with them
+  (Admin › Portal picks the doc types and years) and keep their confirmed contact. The footer
+  says when requests are waiting, on every PC.
+- **Share on portal**: someone invited who has not accepted can be given the documents and sent
+  the invitation again in one Save; **Send invitation and share** invites and shares in one step;
+  an email or cell that already has a portal login is recognised and added at once.
+- Merging a duplicate client, or merging cabinets, brings the client's Portal contacts along.
+- The portal (0.5.2) can also send to-do notices and reminders by text: its Settings › To-do
+  lists.
+
 ## 0.1.54 (2026-11-23)
 
 - New: to-do lists for clients, through your Vibe Portal (needs Vibe Portal 0.5.0 or later).
