@@ -2,6 +2,28 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.54 (2026-11-23)
+
+- New: to-do lists for clients, through your Vibe Portal (needs Vibe Portal 0.5.0 or later).
+  Send a client a list of documents to upload and questions to answer, from the client's
+  **To-do lists…** button. The client answers on the portal: they upload a file, type an answer,
+  or mark an item "does not apply".
+- Every answer is recorded with its date and time, the person, their email and IP address, and,
+  for a file, its SHA-256. Download the record as a PDF report, or file it into the client's
+  folder.
+- Files the client sends for an item arrive in the Portal inbox tagged with the item's document
+  type, ready for Intake.
+- Lists can remind the client by themselves every 3, 7 or 14 days, or with **Remind now**. Assign
+  a staff member to be emailed when the client answers.
+- **From last year's return…** reads the UltraTax return filed for the client and proposes an
+  item for each W-2, 1099, K-1, 1098, interest and dividend payer, and more. Nothing leaves your
+  PC until you send the list.
+- **Admin › To-do templates**: save lists you send often and send one to many clients at once.
+- A copy of each list is kept in the client's folder (`_Vibe/todo`), shown when the portal
+  cannot be reached.
+- To-do lists are off until an admin turns them on, in **Admin › Portal** here and in the
+  portal's Settings.
+
 ## 0.1.53 (2026-11-23)
 
 - New: an installer, `vibe-files-setup-x64.exe`. It asks whether to install for you only (no
