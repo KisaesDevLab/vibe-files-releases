@@ -29,6 +29,9 @@ Update the portal first, then every PC.
   the invitation again in one Save; **Send invitation and share** invites and shares in one step;
   an email or cell that already has a portal login is recognised and added at once.
 - Merging a duplicate client, or merging cabinets, brings the client's Portal contacts along.
+- New: **Delete client…** for a client with no documents, in its panel and on right-click in
+  the tree: its empty folder goes and it leaves the client list and the client CSV. **Undo
+  delete** in Browse puts it back. The portal is not changed.
 - The portal (0.5.2) can also send to-do notices and reminders by text: its Settings › To-do
   lists.
 
