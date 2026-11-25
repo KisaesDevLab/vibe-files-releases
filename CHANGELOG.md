@@ -2,6 +2,34 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.56 (2026-11-25)
+
+This needs Vibe Portal 0.5.4 or later. Update the portal first, then every PC. Both new features
+are off until you turn them on, on the portal and in **Admin › Portal**; the portal's
+`docs/firm-setup.md` walks through setting up Stripe (in test mode first).
+
+- New: **Balance owed**. Post an amount a client owes from the client's details; the client pays
+  it on the portal by card or bank account, into the firm's own Stripe account. Reminders, a
+  person told of each payment, a card fee if you charge one, and a **Payment receipt** PDF filed
+  in the client's `Billing` folder. **Balances** lists them by month.
+- New: **Deliver tax return…**. The client's portal home page gets a card for their return that
+  walks them through up to five steps: sign the letters, review the return, choose a package,
+  pay the fee, and sign Form 8879 (through UltraTax's eSignature link). Each finished step's PDF,
+  with a log of who did what, when and from where, is filed in `Income Tax/<year>/Delivery`.
+  Steps can wait for earlier ones; a revised return reopens its steps. **Deliveries** lists every
+  open delivery and the step it waits on.
+- New: **Admin › Portal › Letter templates**. Engagement letters, consents and package addenda,
+  edited on the page as they print (headings, bold, lists, tables, fields, signature blocks),
+  and signed on the portal by the taxpayer and spouse or an officer. The samples are a starting
+  point only: have your own wording and your attorney's review in place before use. **Preview**
+  with invented people or one of your clients. **New return type…** adds your own (990, 1041,
+  a state return).
+- New: **Admin › Portal › Pricing plans**. Packages compared side by side, with prices worked out
+  from the client's return fee, and add-ons (drag to reorder). **Used by** lists the deliveries
+  sent with a plan's prices.
+- Faster with many deliveries: the Deliveries page draws only the rows on screen, and copies of
+  deliveries into client folders no longer freeze the window.
+
 ## 0.1.55 (2026-11-24)
 
 Most of this needs Vibe Portal 0.5.2 or later; **Admin › Portal** says when the portal is older.
