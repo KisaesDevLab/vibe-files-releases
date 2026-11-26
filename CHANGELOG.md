@@ -2,6 +2,27 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.58 (2026-11-26)
+
+This needs Vibe Portal 0.5.6 or later for its new features. Update the portal first, then every
+PC: an older Vibe Files lists only tax return cards and would file a statements card's PDFs as a
+tax return's.
+
+- New: **Deliver…** (was Deliver tax return…) sends more than a tax return. Choose the Kind:
+  Tax return, Financial statements, or Other document (type its name). A card can carry several
+  PDFs; each shows Opened once the client opens it, and the step is done when every one is.
+  Financial statements' PDFs are filed in `Financials\<year>\Delivery`, other documents' in
+  `Other\<year>\Delivery`.
+- New: **Documents open only after the fee is paid**, a tick on the fee. The client sees the
+  documents' names locked until they pay (a bank payment started opens them).
+- New: **Hold the client's files until this is paid**, a tick on Balance owed. While the balance
+  is due the client sees their files listed but cannot open, download or send them on; paying,
+  Clear balance or the balance's removal releases them.
+- New: **Remind ticked** on Admin › Portal › Deliveries: tick rows (or Tick all shown, Tick
+  waiting too long) and each client is reminded, 20 at a time with a minute's pause.
+- Admin › Portal › Agreements lists only clients with an agreement to renew.
+- Fixed: the pricing plan add-on boxes were too narrow to read.
+
 ## 0.1.57 (2026-11-26)
 
 This needs Vibe Portal 0.5.5 or later. Update the portal first, then every PC.
