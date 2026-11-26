@@ -2,6 +2,32 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.57 (2026-11-26)
+
+This needs Vibe Portal 0.5.5 or later. Update the portal first, then every PC.
+
+- New: **Service agreement…** in a client's details. The client signs an annual agreement on the
+  portal without a tax return: a letter for each service (tax, bookkeeping, payroll, advisory),
+  the firm's Terms and Conditions in each letter, signed by the right people for the client's
+  entity type, the partner's name printed. Each service can have a one-time fee, a monthly
+  charge, or both; the client pays once and the monthly charge runs until it is stopped.
+  **End engagement…** sends the closure letter and stops the charge.
+- New: **engagement letter templates** made from the AICPA Annual Tax Compliance Kit, and
+  sample bookkeeping, payroll and advisory letters. They are samples: have your attorney review
+  your wording before use. A letter with a [fill-in] left in it is not sent.
+- New: **Admin › Portal › Agreements**. The firm's partners, and next year's agreements sent to
+  many clients at once from their last ones, in groups with a pause and **Stop**.
+- **Deliveries** now lists agreements too, with filters by the step waiting and by kind, a
+  **Monthly charge** column, **Show finished**, and your own number of days for "waiting too
+  long".
+- New: **Admin › Portal › Organizers**. Import your online organizer app's export (Stanford Tax);
+  each row is matched to a client and, once you confirm, the client's organizer link shows on
+  their portal home page. Their people can be told by email or text, once.
+- The portal can print a receipt at the office when a client pays online, through Vibe Print.
+  It is set up on the portal's staff page, **Settings › Printing**.
+- Signed agreement and delivery PDFs, and monthly receipts, are filed by Intake in the client's
+  folders.
+
 ## 0.1.56 (2026-11-25)
 
 This needs Vibe Portal 0.5.4 or later. Update the portal first, then every PC. Both new features
