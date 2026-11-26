@@ -2,6 +2,15 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.59 (2026-11-26)
+
+Update the portal to Vibe Portal 0.5.7 as well: with 0.5.6, sending a financial statements or
+other document card failed ("A document could not be put on the card").
+
+- Fixed: Admin › Portal › Deliveries said a card whose documents open only after the fee is paid
+  was waiting on its locked documents; it now waits on the fee, can be ticked for Remind ticked,
+  and is listed under Payment due.
+
 ## 0.1.58 (2026-11-26)
 
 This needs Vibe Portal 0.5.6 or later for its new features. Update the portal first, then every
