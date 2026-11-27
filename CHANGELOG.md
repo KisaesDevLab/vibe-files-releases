@@ -2,6 +2,21 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.61 (2026-11-26)
+
+Works with Vibe Portal 0.5.8; no portal update.
+
+- New: **Assign new cards to** in Admin › Portal: a new Balance owed…, Deliver… or Service
+  agreement… card starts with this staff member in Assigned to (change it on any card). A client
+  they cannot see on the portal starts with Nobody, and the window says so.
+- New: a letter's `[…]` fill-ins can be typed for one client under **Fill in for this client**
+  below each ticked letter in Deliver… and Service agreement…; Preview letters… and Send use them,
+  the template is not changed. The Terms and Conditions' own fill-ins stay in their template.
+- New: Admin › Portal › Balances, Deliveries and Organizers are grids: drag a column's edge to
+  resize it, click a heading to sort (again to reverse), and type in **Filter** to keep the rows
+  with every word typed. Ticked actions act on the rows shown. Widths and sort are kept on this PC.
+- Fixed: stray gaps in two captions (the Portal inbox note, "No client has an agreement to renew").
+
 ## 0.1.60 (2026-11-26)
 
 Update the portal to Vibe Portal 0.5.8 first; with an older portal the new choices below say to
