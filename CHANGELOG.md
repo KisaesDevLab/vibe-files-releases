@@ -2,6 +2,22 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.63 (2026-11-27)
+
+Works with Vibe Portal 0.5.9; no portal update needed. Vibe Portal 0.5.10 and 0.5.11 add printing
+a Form 8879 report on its own office printer (the portal's Settings › Printing) and keep a short
+log on a record's first page.
+
+- Fixed: Intake's **New client…** on a row made the client and its folder, but the row could then
+  say "A folder named … already exists but isn't bound to this client" until Rescan root. The
+  row now files into the new folder.
+- Fixed: two pairs of print capture rules (UltraTax CS · Organizer and Extension) shared an ID,
+  so on Intake › Rules the two rows shared one drag handle.
+- Changed: Admin › Portal › Agreements shows a run's result in amber when a client was skipped or
+  the run was stopped (green only when every ticked client was sent). The Annual service
+  agreements help says when a changed monthly amount is not carried over.
+- Fixed: Intake's Just filed said "Details set on 1 documents."
+
 ## 0.1.62 (2026-11-27)
 
 Update the portal to Vibe Portal 0.5.9 too (its fix below); Vibe Files works with 0.5.8.
