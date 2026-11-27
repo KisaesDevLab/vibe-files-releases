@@ -2,6 +2,26 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.60 (2026-11-26)
+
+Update the portal to Vibe Portal 0.5.8 first; with an older portal the new choices below say to
+update it.
+
+- New: **Signed on paper…** in Deliver…'s Letters to sign and Form 8879 sections marks the step
+  done when the client signed on paper, with a note in the card's log and step PDF.
+- New: Form 8879 **How it is signed**: the UltraTax eSignature link, **Pick up and sign at our
+  office**, or **We mailed the return** (the client has I've mailed it back). Office and mail need
+  no link.
+- New: **Mark ticked signed on paper…** on Admin › Portal › Deliveries marks each ticked card's
+  letters or Form 8879 signed with one note; cards waiting on something else are skipped by name.
+- New: a finished card opens in Deliver… read-only, with **Revise the return…** (it opens again,
+  the fee stays paid) and **Send another** (Fee starts unticked when the last fee was paid). The
+  client panel keeps the finished card's line.
+- New: a balance that holds the client's files leaves the documents of a paid delivery open.
+- Fixed: sending a corrected return after the client paid failed (the fee was sent again and
+  refused); the fee is now left as it is.
+- Help: Paper signatures and corrected returns.
+
 ## 0.1.59 (2026-11-26)
 
 Update the portal to Vibe Portal 0.5.7 as well: with 0.5.6, sending a financial statements or
