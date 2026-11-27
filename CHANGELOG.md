@@ -6,6 +6,7 @@ What changed in each Vibe Files release, newest first. Each section is also the 
 
 Update the portal to Vibe Portal 0.5.9 too (its fix below); Vibe Files works with 0.5.8.
 
+- Changed: Deliver…'s Form 8879 choice says **eSignature link** (no product name).
 - Fixed: Deliver…'s **Signed on paper…** for the letters was not shown once the letters were sent,
   the only time it can be used (Mark ticked signed on paper on Admin › Portal › Deliveries
   worked).
