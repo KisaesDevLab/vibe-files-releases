@@ -2,6 +2,18 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.64 (2026-11-27)
+
+Works with Vibe Portal 0.5.9 or later; no portal update needed.
+
+- Changed: a saved search in Browse's tree shows no count until it is opened (it showed 0 before
+  it had run).
+- Fixed: Legal holds and Disposition said "1 documents" (a hold's line, "Approve 1 documents for
+  destruction?" and a run's line).
+- Fixed: the Viewer's Find said "4 matches on 1 pages".
+- Fixed: Merge into…'s "Last merge" line showed the date in UTC, a day ahead in the evening; it
+  now shows the local date and time.
+
 ## 0.1.63 (2026-11-27)
 
 Works with Vibe Portal 0.5.9; no portal update needed. Vibe Portal 0.5.10 and 0.5.11 add printing
