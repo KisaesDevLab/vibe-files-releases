@@ -2,6 +2,26 @@
 
 What changed in each Vibe Files release, newest first. Each section is also the release's notes.
 
+## 0.1.65 (2026-11-28)
+
+Works with Vibe Portal 0.5.9 or later. Signing a business return's Form 8879 on the portal needs
+Vibe Portal 0.5.12 (update the portal first); with an older portal Deliver… says so.
+
+- New: business 8879s signed on the portal. Admin › Portal › Deliveries has **Business 8879s can
+  be signed on the portal** (off until an admin ticks it) for 1120, 1120-S, 1065 and 1041 returns
+  and the firm's own return types marked **Its 8879 can be signed on the portal**. **E-file
+  authorization forms…** lists the federal forms Vibe Files looks for (8879-CORP, 8879-S, 8879-PE,
+  8879-F) and takes a state's (its title words, and the words by its signature and date lines),
+  with **Test on a PDF…**.
+- New: Deliver… **Sign on the portal**: Vibe Files finds the 8879 pages in the client's filed 8879
+  or in the return by their printed words, places the officer's signature and date boxes, and shows
+  them in **Preview and place…** (drag a box; **Leave this page out**). The officer signs on the
+  portal, signed in as themselves, with a code sent as they sign, drawn or typed. The signed 8879,
+  with its record, comes back to Intake as **8879 e-file authorization** in Income Tax\{Year};
+  staff press **Confirm signed** as before. Whether a business 8879 may be signed without the
+  identity questions of an eSignature service is the firm's decision.
+- New: help article **Business 8879s signed on the portal**.
+
 ## 0.1.64 (2026-11-27)
 
 Works with Vibe Portal 0.5.9 or later; no portal update needed.
